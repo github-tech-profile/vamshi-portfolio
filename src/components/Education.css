@@ -1,0 +1,35 @@
+.education {
+  background-color: #e9ecef;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  animation: fadeInUp 1s ease-in-out;
+}
+
+.education h2 {
+  color: #495057;
+  font-size: 2em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.education ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.education li {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #6c757d;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translateY(50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

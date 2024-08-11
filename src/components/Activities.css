@@ -1,0 +1,37 @@
+.activities {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  animation: fadeInDown 1s ease-in-out;
+}
+
+.activities ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activities li {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #495057;
+  padding-left: 15px;
+  position: relative;
+}
+
+.activities li:before {
+  content: "→";
+  color: #007bff;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@keyframes fadeInDown {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

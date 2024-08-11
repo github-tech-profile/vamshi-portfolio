@@ -1,0 +1,44 @@
+.experience {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  animation: slideInRight 1s ease-in-out;
+}
+
+.experience h3 {
+  color: #495057;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.experience ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.experience li {
+  margin: 15px 0;
+  font-size: 1.1em;
+  color: #6c757d;
+  padding-left: 15px;
+  position: relative;
+}
+
+.experience li:before {
+  content: "•";
+  color: #007bff;
+  font-size: 1.5em;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

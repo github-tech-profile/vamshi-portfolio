@@ -1,0 +1,30 @@
+.about {
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about h2 {
+  color: #495057;
+  font-size: 2em;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.about p {
+  line-height: 1.8;
+  font-size: 1.1em;
+  color: #6c757d;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
